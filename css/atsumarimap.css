@@ -61,12 +61,24 @@ margin: auto;
 .attribution {
   position: absolute;
   bottom: 0px;
-  color: #31aade;
   width: 100%;
-  text-align: center;
-  font-size: 12px;
   padding: 10px;
   z-index: 2;
+}
+#cr_text {
+ left: 20px;
+ font-family: "Roboto", sans-serif;
+ font-size: 10px;
+ color: #31aade;
+ font-size: 12px;
+ width: auto;
+ margin: 0px;
+}
+#mit_logo {
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+  height: 40px;
 }
 
 ::-webkit-scrollbar {
